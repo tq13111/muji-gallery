@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="创建路由">
-      <change afterPath="$PROJECT_DIR$/src/components/Loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="完成 Header、Footer 组件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="O:\T\Desktop\jirengu\react-muji-gallery\src\components" />
       <recent name="O:\T\Desktop\jirengu\react-muji-gallery\src" />
     </key>
   </component>
@@ -64,7 +61,7 @@
       <updated>1614394854895</updated>
       <workItem from="1614394857772" duration="5597000" />
       <workItem from="1614405198798" duration="521000" />
-      <workItem from="1614405730862" duration="5663000" />
+      <workItem from="1614405730862" duration="9946000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -94,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614407449179</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="实现懒加载">
+      <created>1614433517727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614433517727</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完成 Header、Footer 组件">
+      <created>1614437487007</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614437487007</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +126,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建项目文件" />
     <MESSAGE value="创建路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建路由" />
+    <MESSAGE value="实现懒加载" />
+    <MESSAGE value="完成 Header、Footer 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 Header、Footer 组件" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

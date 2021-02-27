@@ -12,17 +12,19 @@ const History = lazy(() => import('./view/History'))
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header/>
-      <Suspense fallback={<Loading/>}>
-        <Switch>
-          <Route path='/' exact component={Home}/>
-          <Route path='/history' component={History}/>
-          <Route path='/about' component={About}/>
-        </Switch>
-      </Suspense>
+      <main>
+        <Suspense fallback={<Loading/>}>
+          <Switch>
+            <Route path='/' exact component={Home}/>
+            <Route path='/history' component={History}/>
+            <Route path='/about' component={About}/>
+          </Switch>
+        </Suspense>
+      </main>
       <Footer/>
-    </div>
+    </>
   )
 }
 
