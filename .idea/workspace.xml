@@ -7,18 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="创建项目文件">
-      <change afterPath="$PROJECT_DIR$/src/view/History.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="创建路由">
+      <change afterPath="$PROJECT_DIR$/src/components/Loading.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/App.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1p2xAwUE5DJLpocNeoJW5eFML9f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -72,7 +64,7 @@
       <updated>1614394854895</updated>
       <workItem from="1614394857772" duration="5597000" />
       <workItem from="1614405198798" duration="521000" />
-      <workItem from="1614405730862" duration="1637000" />
+      <workItem from="1614405730862" duration="5663000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -81,7 +73,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614403639035</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="创建项目文件">
+      <created>1614407426270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614407426270</updated>
+    </task>
+    <task id="LOCAL-00003" summary="创建路由">
+      <created>1614407440324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614407440324</updated>
+    </task>
+    <task id="LOCAL-00004" summary="创建路由">
+      <created>1614407449179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614407449179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建项目文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建项目文件" />
+    <MESSAGE value="创建路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建路由" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
