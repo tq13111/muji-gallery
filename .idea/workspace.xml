@@ -7,27 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="使用 mobx 管理全局数据">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Register.js" afterDir="false" />
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="创建 Login、Register 页面">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/AuthStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +65,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="" />
+      <changelist id="" name="使用 mobx 管理全局数据" comment="" />
       <created>1614394854895</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -89,7 +74,7 @@
       <workItem from="1614405198798" duration="521000" />
       <workItem from="1614405730862" duration="10253000" />
       <workItem from="1614595833979" duration="4509000" />
-      <workItem from="1614602161250" duration="2126000" />
+      <workItem from="1614602161250" duration="3094000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -147,7 +132,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614599456883</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="使用 mobx 管理全局数据">
+      <created>1614604397849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614604397849</updated>
+    </task>
+    <task id="LOCAL-00010" summary="使用 mobx 管理全局数据">
+      <created>1614604563419</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614604563419</updated>
+    </task>
+    <task id="LOCAL-00011" summary="创建 Login、Register 页面">
+      <created>1614604634877</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614604634877</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +178,8 @@
     <MESSAGE value="实现懒加载" />
     <MESSAGE value="完成 Header、Footer 组件" />
     <MESSAGE value="使用 mobx 管理全局数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用 mobx 管理全局数据" />
+    <MESSAGE value="创建 Login、Register 页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 Login、Register 页面" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

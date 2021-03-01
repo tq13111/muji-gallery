@@ -1,8 +1,8 @@
 import React from 'react'
 import LogoUrl from './logo.svg'
-
 import {NavLink} from 'react-router-dom'
 import styled from 'styled-components'
+import {Button} from 'antd'
 
 const Header = styled.header`
   display: flex;
@@ -10,11 +10,11 @@ const Header = styled.header`
   padding: 10px 100px;
   background-color: #02101f;
   color: #fff;
-`;
+`
 
 const Logo = styled.img`
   height: 30px;
-`;
+`
 
 const StyledLink = styled(NavLink)`
   color: #fff;
@@ -23,15 +23,15 @@ const StyledLink = styled(NavLink)`
   &.active {
     border-bottom: 1px solid #fff;
   }
-`;
+`
 
 const Login = styled.div`
   margin-left: auto;
-`;
+`
 
-const Button = styled.button`
+const StyledButton = styled(Button)`
   margin-left: 10px;
-`;
+`
 
 
 function Component() {
@@ -44,16 +44,12 @@ function Component() {
         <StyledLink to="/about" activeClassName="active">关于我</StyledLink>
       </nav>
       <Login>
-        <Button>
-          <StyledLink to="/login">登录</StyledLink>
-        </Button>
-        <Button>
-          <StyledLink to="/register">注册</StyledLink>
-        </Button>
+        <StyledButton type="primary">登录</StyledButton>
+        <StyledButton type="primary">注册</StyledButton>
       </Login>
 
     </Header>
-  );
+  )
 }
 
 export default Component
