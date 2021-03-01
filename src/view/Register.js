@@ -10,10 +10,6 @@ const Wrapper = styled.div`
   border-radius: 4px;
   padding: 20px;
   box-shadow: 0 5px 5px -3px rgb(0 0 0 / 0%), 0 8px 10px 1px rgb(0 0 0 / 0%), 0 3px 14px 2px rgb(0 0 0 / 10%);
-
-`
-const h1 = styled.h1`
-  padding-left: 600px;
 `
 const layout = {
   labelCol: {span: 4},
@@ -36,7 +32,6 @@ const Component = observer(() => {
     if (/\W/.test(value)) {return Promise.reject('只能是数字字母下划线')}
     if (value.length < 4 || value.length > 10) {return Promise.reject('长度为4~10个字符')}
     return Promise.resolve()
-
   }
   const validateConfirm = ({getFieldValue}) => ({
     validator(rule, value) {
