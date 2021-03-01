@@ -7,8 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="完成注册表单验证">
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="完成 Login 页面">
+      <change afterPath="$PROJECT_DIR$/src/constants/formLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,7 @@
       <workItem from="1614405198798" duration="521000" />
       <workItem from="1614405730862" duration="10253000" />
       <workItem from="1614595833979" duration="4509000" />
-      <workItem from="1614602161250" duration="12859000" />
+      <workItem from="1614602161250" duration="13650000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -179,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614615018699</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="完成 Login 页面">
+      <created>1614615395929</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614615395929</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +219,8 @@
     <MESSAGE value="实现登录、注销切换" />
     <MESSAGE value="在 Register 页面创建 form 表单" />
     <MESSAGE value="完成注册表单验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成注册表单验证" />
+    <MESSAGE value="完成 Login 页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 Login 页面" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
