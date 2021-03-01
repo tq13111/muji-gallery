@@ -7,7 +7,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="完成 Header、Footer 组件" />
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="使用 mobx 管理全局数据">
+      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/AuthStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +48,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1p2xAwUE5DJLpocNeoJW5eFML9f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -61,7 +87,9 @@
       <updated>1614394854895</updated>
       <workItem from="1614394857772" duration="5597000" />
       <workItem from="1614405198798" duration="521000" />
-      <workItem from="1614405730862" duration="9946000" />
+      <workItem from="1614405730862" duration="10253000" />
+      <workItem from="1614595833979" duration="4509000" />
+      <workItem from="1614602161250" duration="2126000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -105,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614437487007</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成 Header、Footer 组件">
+      <created>1614437525709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614437525709</updated>
+    </task>
+    <task id="LOCAL-00008" summary="使用 mobx 管理全局数据">
+      <created>1614599456883</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614599456883</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,11 +166,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="创建项目文件" />
     <MESSAGE value="创建路由" />
     <MESSAGE value="实现懒加载" />
     <MESSAGE value="完成 Header、Footer 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 Header、Footer 组件" />
+    <MESSAGE value="使用 mobx 管理全局数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 mobx 管理全局数据" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
