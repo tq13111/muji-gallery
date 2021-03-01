@@ -24,7 +24,6 @@ class AuthStore {
   @action setPassword(password) {
     this.values.password = password
   }
-
   @action login() {
     console.log('登陆中')
     this.isLoading = true
