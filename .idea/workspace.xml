@@ -7,12 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="创建 Login、Register 页面">
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="引入 antd，使用 Button 组件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,7 @@
       <workItem from="1614405198798" duration="521000" />
       <workItem from="1614405730862" duration="10253000" />
       <workItem from="1614595833979" duration="4509000" />
-      <workItem from="1614602161250" duration="3094000" />
+      <workItem from="1614602161250" duration="3856000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -153,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614604634877</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="引入 antd，使用 Button 组件">
+      <created>1614605310822</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614605310822</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +183,8 @@
     <MESSAGE value="完成 Header、Footer 组件" />
     <MESSAGE value="使用 mobx 管理全局数据" />
     <MESSAGE value="创建 Login、Register 页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 Login、Register 页面" />
+    <MESSAGE value="引入 antd，使用 Button 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入 antd，使用 Button 组件" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

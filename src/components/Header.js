@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import LogoUrl from './logo.svg'
 import {NavLink} from 'react-router-dom'
 import styled from 'styled-components'
@@ -30,11 +30,12 @@ const Login = styled.div`
 `
 
 const StyledButton = styled(Button)`
-  margin-left: 10px;
+  margin-left: 24px;
 `
 
 
 function Component() {
+  const [isLogin, setIsLogin] = useState(false)
   return (
     <Header>
       <Logo src={LogoUrl}/>
@@ -44,8 +45,16 @@ function Component() {
         <StyledLink to="/about" activeClassName="active">关于我</StyledLink>
       </nav>
       <Login>
-        <StyledButton type="primary">登录</StyledButton>
-        <StyledButton type="primary">注册</StyledButton>
+        {
+          isLogin ?
+            <>
+              User:饥人谷<StyledButton type="primary" onClick={() => setIsLogin(false)}>注销</StyledButton>
+            </> :
+            <>
+              <StyledButton type="primary" onClick={() => setIsLogin(true)}>登录</StyledButton>
+              <StyledButton type="primary">注册</StyledButton>
+            </>
+        }
       </Login>
 
     </Header>
