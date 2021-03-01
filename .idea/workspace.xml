@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="实现登录、注销切换">
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="在 Register 页面创建 form 表单">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +29,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/public/index.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
@@ -75,7 +74,7 @@
       <workItem from="1614405198798" duration="521000" />
       <workItem from="1614405730862" duration="10253000" />
       <workItem from="1614595833979" duration="4509000" />
-      <workItem from="1614602161250" duration="8158000" />
+      <workItem from="1614602161250" duration="12516000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614606062136</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="在 Register 页面创建 form 表单">
+      <created>1614610735990</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614610735990</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +202,8 @@
     <MESSAGE value="创建 Login、Register 页面" />
     <MESSAGE value="引入 antd，使用 Button 组件" />
     <MESSAGE value="实现登录、注销切换" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现登录、注销切换" />
+    <MESSAGE value="在 Register 页面创建 form 表单" />
+    <option name="LAST_COMMIT_MESSAGE" value="在 Register 页面创建 form 表单" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
