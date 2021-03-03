@@ -1,13 +1,17 @@
 import React from 'react'
 import {observer} from 'mobx-react'
 import {Button, Form, Input} from 'antd'
-import {Wrapper,layout,tailLayout} from '../constants/formLayout'
-
+import {Wrapper, layout, tailLayout} from '../constants/formLayout'
+import useStore from '../stores'
 
 const Component = observer(() => {
-
+  const {AuthStore} = useStore()
   const onFinish = values => {
-    console.log('Success:', values)
+    AuthStore.setUsername(values.username)
+    AuthStore.setPassword(values.password)
+    AuthStore.login()
+      .then(r => console.log('登陆成功'))
+      .catch(()=>console.log('用户名或密码错误'))
   }
 
   const onFinishFailed = errorInfo => {
