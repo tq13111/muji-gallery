@@ -1,6 +1,5 @@
 import React from 'react'
 import {observable, action, makeObservable} from 'mobx'
-
 class AuthStore {
   constructor() {
     makeObservable(this)

@@ -2,7 +2,7 @@ import React from 'react'
 import {observer} from 'mobx-react'
 import {Button, Form, Input} from 'antd'
 import {Wrapper,layout,tailLayout} from '../constants/formLayout'
-
+import useStore from '../stores'
 const Component = observer(() => {
   const onFinish = (values) => {
     console.log('Success:', values)
