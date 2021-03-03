@@ -1,19 +1,15 @@
 import React from 'react'
 import {observable, action, makeObservable} from 'mobx'
+import Auth from '../models/index'
+
 class AuthStore {
   constructor() {
     makeObservable(this)
   }
 
-  @observable isLogin = false
-  @observable isLoading = false
   @observable values = {
     username: 'jirengu',
     password: ''
-  }
-
-  @action setIsLogin(isLogin) {
-    this.isLogin = isLogin
   }
 
   @action setUsername(username) {
@@ -23,23 +19,33 @@ class AuthStore {
   @action setPassword(password) {
     this.values.password = password
   }
+
   @action login() {
-    console.log('登陆中')
-    this.isLoading = true
-    setTimeout(() => {
-      this.isLogin = true
-      this.isLoading = false
-    }, 1000)
+    return new Promise((resolve, reject) => {
+      Auth.login(this.values.username, this.values.password)
+        .then(user => {
+          console.log('登陆成功')
+          resolve(user)
+        })
+        .catch(error => {
+          console.log('登陆失败')
+          reject(error)
+        })
+    })
   }
 
   @action register() {
-    console.log('注册中...')
-    this.isLoading = true
-    setTimeout(() => {
-      console.log('注册成功')
-      this.isLogin = true
-      this.isLoading = false
-    }, 1000)
+    return new Promise((resolve, reject) => {
+      Auth.register(this.values.username, this.values.password)
+        .then(user => {
+          console.log('注册成功')
+          resolve(user)
+        })
+        .catch(error => {
+          console.log('注册失败')
+          reject(error)
+        })
+    })
   }
 
   @action logout() {

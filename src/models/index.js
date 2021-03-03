@@ -11,14 +11,14 @@ const Auth = {
     const user = new User()
     user.setUsername(userName)
     user.setPassword(passWord)
-    return Promise.then((resolve, reject) => {
+    return new Promise((resolve, reject) => {
       user.signUp().then(loginUser => resolve(loginUser)
         , (error) => reject(error)
       )
     })
   },
   login(userName, passWord) {
-    return Promise.then((resolve, reject) => {
+    return new Promise((resolve, reject) => {
       User.logIn(userName, passWord).then(loginedUser => resolve(loginedUser)
         , (error) => reject(error)
       )

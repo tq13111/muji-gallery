@@ -7,14 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="提取 formLayout 样式文件">
-      <change afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="使用 leanCloud,封装注册登录功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stores/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +32,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/public/index.html" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1p2xAwUE5DJLpocNeoJW5eFML9f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,7 +80,7 @@
       <workItem from="1614595833979" duration="4509000" />
       <workItem from="1614602161250" duration="13747000" />
       <workItem from="1614694881818" duration="619000" />
-      <workItem from="1614766050058" duration="4863000" />
+      <workItem from="1614766050058" duration="8046000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -206,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614615986801</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="使用 leanCloud,封装注册登录功能">
+      <created>1614783860051</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614783860051</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +240,8 @@
     <MESSAGE value="完成注册表单验证" />
     <MESSAGE value="完成 Login 页面" />
     <MESSAGE value="提取 formLayout 样式文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="提取 formLayout 样式文件" />
+    <MESSAGE value="使用 leanCloud,封装注册登录功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 leanCloud,封装注册登录功能" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
