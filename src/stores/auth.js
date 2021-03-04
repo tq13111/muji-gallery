@@ -1,4 +1,3 @@
-import React from 'react'
 import {observable, action, makeObservable} from 'mobx'
 import Auth from '../models/index'
 
@@ -8,7 +7,7 @@ class AuthStore {
   }
 
   @observable values = {
-    username: 'jirengu',
+    username: '',
     password: ''
   }
 
@@ -54,4 +53,4 @@ class AuthStore {
 
 }
 
-export default AuthStore
+export default new AuthStore()
