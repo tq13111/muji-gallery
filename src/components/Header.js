@@ -1,8 +1,10 @@
-import React, {useState} from 'react'
+import React from 'react'
 import LogoUrl from './logo.svg'
 import {NavLink} from 'react-router-dom'
 import styled from 'styled-components'
 import {Button} from 'antd'
+import useStore from '../stores'
+import {observer} from 'mobx-react'
 
 const Header = styled.header`
   display: flex;
@@ -34,31 +36,38 @@ const StyledButton = styled(Button)`
 `
 
 
-function Component() {
-  const [isLogin, setIsLogin] = useState(false)
-  return (
-    <Header>
-      <Logo src={LogoUrl}/>
-      <nav>
-        <StyledLink to="/" activeClassName="active" exact>首页</StyledLink>
-        <StyledLink to="/history" activeClassName="active">上传历史</StyledLink>
-        <StyledLink to="/about" activeClassName="active">关于我</StyledLink>
-      </nav>
-      <Login>
-        {
-          isLogin ?
-            <>
-              User:饥人谷<StyledButton type="primary" onClick={() => setIsLogin(false)}>注销</StyledButton>
-            </> :
-            <>
-              <StyledButton type="primary" onClick={() => setIsLogin(true)}>登录</StyledButton>
-              <StyledButton type="primary">注册</StyledButton>
-            </>
-        }
-      </Login>
+const Component = observer(
+  () => {
+    const {UserStore, AuthStore} = useStore()
+    const handleLogout = () => AuthStore.logout()
+    const handleLogin = () => {}
+    const handleRegister = () => {}
 
-    </Header>
-  )
-}
+    return (
+      <Header>
+        <Logo src={LogoUrl}/>
+        <nav>
+          <StyledLink to="/" activeClassName="active" exact>首页</StyledLink>
+          <StyledLink to="/history" activeClassName="active">上传历史</StyledLink>
+          <StyledLink to="/about" activeClassName="active">关于我</StyledLink>
+        </nav>
+        <Login>
+          {
+            UserStore.currentUser ?
+              <>
+                {UserStore.currentUser.attributes.username}<StyledButton type="primary"
+                                                                          onClick={handleLogout}>注销</StyledButton>
+              </> :
+              <>
+                <StyledButton type="primary" onClick={handleLogin}>登录</StyledButton>
+                <StyledButton type="primary" onClick={handleRegister}>注册</StyledButton>
+              </>
+          }
+        </Login>
+
+      </Header>
+    )
+  }
+)
 
 export default Component

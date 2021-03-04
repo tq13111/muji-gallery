@@ -7,11 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="完成注册功能">
-      <change afterPath="$PROJECT_DIR$/src/stores/user.js" afterDir="false" />
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="创建 UserStore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stores/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <workItem from="1614602161250" duration="13747000" />
       <workItem from="1614694881818" duration="619000" />
       <workItem from="1614766050058" duration="8393000" />
-      <workItem from="1614854202595" duration="1328000" />
+      <workItem from="1614854202595" duration="3083000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -215,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614786974667</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="创建 UserStore">
+      <created>1614861257737</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614861257737</updated>
+    </task>
+    <task id="LOCAL-00021" summary="创建 UserStore">
+      <created>1614861331502</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1614861331502</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +262,8 @@
     <MESSAGE value="提取 formLayout 样式文件" />
     <MESSAGE value="使用 leanCloud,封装注册登录功能" />
     <MESSAGE value="完成注册功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成注册功能" />
+    <MESSAGE value="创建 UserStore" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 UserStore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
