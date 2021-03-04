@@ -7,12 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="使用 UserStore、AuthStore实现登陆后显示用户名">
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="登陆、注册成功后跳转首页">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <workItem from="1614602161250" duration="13747000" />
       <workItem from="1614694881818" duration="619000" />
       <workItem from="1614766050058" duration="8393000" />
-      <workItem from="1614854202595" duration="4328000" />
+      <workItem from="1614854202595" duration="5874000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -237,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614863172841</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="登陆、注册成功后跳转首页">
+      <created>1614864319824</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1614864319824</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +277,8 @@
     <MESSAGE value="完成注册功能" />
     <MESSAGE value="创建 UserStore" />
     <MESSAGE value="使用 UserStore、AuthStore实现登陆后显示用户名" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用 UserStore、AuthStore实现登陆后显示用户名" />
+    <MESSAGE value="登陆、注册成功后跳转首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="登陆、注册成功后跳转首页" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
