@@ -49,7 +49,9 @@ class AuthStore {
   }
 
   @action logout() {
-    return  Auth.logOut();
+    User.resetUser()
+    return Auth.logOut()
+
   }
 
 }

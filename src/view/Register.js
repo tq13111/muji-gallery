@@ -3,15 +3,20 @@ import {observer} from 'mobx-react'
 import {Button, Form, Input} from 'antd'
 import {Wrapper, layout, tailLayout} from '../constants/formLayout'
 import useStore from '../stores'
+import {useHistory} from 'react-router-dom'
 
 const Component = observer(() => {
   const {AuthStore} = useStore()
+  const history = useHistory()
   const onFinish = (values) => {
     AuthStore.setUsername(values.username)
     AuthStore.setPassword(values.password)
     AuthStore.register()
-      .then(r => console.log('注册成功,跳转首页'))
-      // .catch(()=> console.log('注册失败'))
+      .then(r => {
+        console.log('注册成功,跳转首页')
+        history.push('/')
+      })
+      .catch(() => console.log('注册失败'))
   }
 
   const onFinishFailed = (errorInfo) => {

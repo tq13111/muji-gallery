@@ -1,6 +1,6 @@
 import React from 'react'
 import LogoUrl from './logo.svg'
-import {NavLink} from 'react-router-dom'
+import {NavLink, useHistory} from 'react-router-dom'
 import styled from 'styled-components'
 import {Button} from 'antd'
 import useStore from '../stores'
@@ -38,10 +38,11 @@ const StyledButton = styled(Button)`
 
 const Component = observer(
   () => {
+    const history = useHistory()
     const {UserStore, AuthStore} = useStore()
     const handleLogout = () => AuthStore.logout()
-    const handleLogin = () => {}
-    const handleRegister = () => {}
+    const handleLogin = () => history.push('/login')
+    const handleRegister = () => history.push('/register')
 
     return (
       <Header>
@@ -55,8 +56,8 @@ const Component = observer(
           {
             UserStore.currentUser ?
               <>
-                {UserStore.currentUser.attributes.username}<StyledButton type="primary"
-                                                                          onClick={handleLogout}>注销</StyledButton>
+                {UserStore.currentUser.attributes.username}
+                <StyledButton type="primary" onClick={handleLogout}>注销</StyledButton>
               </> :
               <>
                 <StyledButton type="primary" onClick={handleLogin}>登录</StyledButton>
