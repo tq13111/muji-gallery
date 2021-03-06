@@ -25,7 +25,6 @@ const Component = observer(() => {
   const props = {
     showUploadList: false,     // 不显示文件列表
     beforeUpload: file => {
-      window.file = file
       ImageStore.serverFile = null
       if (!UserStore.currentUser) {
         message.warning('请先登录 !')

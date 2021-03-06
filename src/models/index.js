@@ -58,5 +58,4 @@ const Uploader = {
     })
   }
 }
-window.Upload = Uploader
 export {Auth, Uploader}

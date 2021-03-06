@@ -7,11 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="添加失败提示">
-      <change afterPath="$PROJECT_DIR$/src/components/History.js" afterDir="false" />
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="完成 historyStore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/History.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/History.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1614854202595" duration="12655000" />
       <workItem from="1614939244012" duration="1500000" />
       <workItem from="1614996082228" duration="18535000" />
-      <workItem from="1615042440660" duration="1948000" />
+      <workItem from="1615042440660" duration="5080000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -413,7 +412,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615020983052</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="完成上传历史查询接口">
+      <created>1615044624996</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1615044624996</updated>
+    </task>
+    <task id="LOCAL-00047" summary="完成 historyStore">
+      <created>1615046229623</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1615046229623</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,8 +446,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="创建 Login、Register 页面" />
-    <MESSAGE value="引入 antd，使用 Button 组件" />
     <MESSAGE value="实现登录、注销切换" />
     <MESSAGE value="在 Register 页面创建 form 表单" />
     <MESSAGE value="完成注册表单验证" />
@@ -458,7 +469,9 @@
     <MESSAGE value="限制上传文件类型、大小" />
     <MESSAGE value="增加 loading 效果" />
     <MESSAGE value="添加失败提示" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加失败提示" />
+    <MESSAGE value="完成上传历史查询接口" />
+    <MESSAGE value="完成 historyStore" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 historyStore" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
