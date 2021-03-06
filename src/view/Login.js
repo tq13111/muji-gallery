@@ -24,7 +24,7 @@ const Component = observer(() => {
   }
   const validatorUsername = (rule, value) => {
     if (/\W/.test(value)) {return Promise.reject('只能是数字字母下划线')}
-    if (value.length < 4 || value.length > 10) {return Promise.reject('长度为4~10个字符')}
+    if (value && (value.length < 4 || value.length > 10)) {return Promise.reject('长度为4~10个字符')}
     return Promise.resolve()
   }
   return (

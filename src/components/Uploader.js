@@ -23,9 +23,20 @@ const Image = styled.img`
 const Component = observer(() => {
   const {ImageStore, UserStore} = useStore()
   const props = {
+
+    showUploadList: false,     // 不显示文件列表
     beforeUpload: file => {
+      window.file = file
       if (!UserStore.currentUser) {
         message.warning('请先登录 !')
+        return false
+      }
+      if (!/(gif$)| (jeg$)|(png$)|(jpeg$)/ig.test(file.type)) {
+        message.error('只支持上传 jpg/jpeg/png/gif 格式的图片')
+        return false
+      }
+      if (file.size > 1024 * 1024) {
+        message.error('图片最大为 1M')
         return false
       }
       ImageStore.setFile(file)
@@ -44,7 +55,6 @@ const Component = observer(() => {
     get widthStr() {
       return store.width ? `/w/${store.width}` : ''
     },
-
     get heightStr() {
       return store.height ? `/h/${store.height}` : ''
     },
@@ -76,7 +86,7 @@ const Component = observer(() => {
         </p>
         <p className="ant-upload-text">单击或拖动文件到此区域以上传</p>
         <p className="ant-upload-hint">
-          支持单次或批量上传。严格禁止上传公司数据或其他乐队文件
+          支持jpg/jpeg/png/gif 格式的图片,可单次或批量上传。
         </p>
       </Dragger>
 

@@ -8,7 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="支持自定义图片尺寸">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Login.js" afterDir="false" />
     </list>
     <list id="1faee9a5-d538-4743-a97f-24d2d3b1d079" name="封装 ImageStore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +96,7 @@
       <workItem from="1614766050058" duration="8393000" />
       <workItem from="1614854202595" duration="12655000" />
       <workItem from="1614939244012" duration="1500000" />
-      <workItem from="1614996082228" duration="12124000" />
+      <workItem from="1614996082228" duration="15986000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -376,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615011751910</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="支持自定义图片尺寸">
+      <created>1615012151824</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1615012151824</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
