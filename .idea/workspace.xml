@@ -7,12 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="创建 Upload 组件，支持上传功能">
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="完成 Tips 组件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
     </list>
     <list id="1faee9a5-d538-4743-a97f-24d2d3b1d079" name="封装 ImageStore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +95,7 @@
       <workItem from="1614766050058" duration="8393000" />
       <workItem from="1614854202595" duration="12655000" />
       <workItem from="1614939244012" duration="1500000" />
-      <workItem from="1614996082228" duration="2657000" />
+      <workItem from="1614996082228" duration="6192000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -331,7 +328,35 @@
       <option name="project" value="LOCAL" />
       <updated>1614874547613</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="使用 Upload from AntD,成功后显示 url">
+      <created>1614998850937</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1614998850937</updated>
+    </task>
+    <task id="LOCAL-00035" summary="完成 Tips 组件">
+      <created>1614999992608</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1614999992608</updated>
+    </task>
+    <task id="LOCAL-00036" summary="完成 Tips 组件">
+      <created>1615000668930</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1615000668930</updated>
+    </task>
+    <task id="LOCAL-00037" summary="完成 Tips 组件">
+      <created>1615000728478</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1615000728478</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +398,9 @@
     <MESSAGE value="封装 uploader 对象" />
     <MESSAGE value="封装 ImageStore" />
     <MESSAGE value="创建 Upload 组件，支持上传功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 Upload 组件，支持上传功能" />
+    <MESSAGE value="使用 Upload from AntD,成功后显示 url" />
+    <MESSAGE value="完成 Tips 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 Tips 组件" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

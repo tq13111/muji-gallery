@@ -7,9 +7,13 @@ import {observer} from 'mobx-react'
 const {Dragger} = Upload
 
 const Component = observer(() => {
-  const {ImageStore} = useStore()
+  const {ImageStore, UserStore} = useStore()
   const props = {
     beforeUpload: file => {
+      if (!UserStore.currentUser) {
+        message.warning('请先登录 !')
+        return false
+      }
       ImageStore.setFile(file)
       ImageStore.setFileName(file.name)
       ImageStore.upload()
@@ -25,10 +29,9 @@ const Component = observer(() => {
         <p className="ant-upload-drag-icon">
           <InboxOutlined/>
         </p>
-        <p className="ant-upload-text">Click or drag file to this area to upload</p>
+        <p className="ant-upload-text">单击或拖动文件到此区域以上传</p>
         <p className="ant-upload-hint">
-          Support for a single or bulk upload. Strictly prohibit from uploading company data or other
-          band files
+          支持单次或批量上传。严格禁止上传公司数据或其他乐队文件
         </p>
       </Dragger>
       <div>
