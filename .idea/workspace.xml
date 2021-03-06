@@ -7,8 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="实现登陆后才能上传">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="支持自定义图片尺寸">
       <change beforePath="$PROJECT_DIR$/src/components/Uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
     </list>
     <list id="1faee9a5-d538-4743-a97f-24d2d3b1d079" name="封装 ImageStore" comment="" />
@@ -95,7 +94,7 @@
       <workItem from="1614766050058" duration="8393000" />
       <workItem from="1614854202595" duration="12655000" />
       <workItem from="1614939244012" duration="1500000" />
-      <workItem from="1614996082228" duration="7545000" />
+      <workItem from="1614996082228" duration="12124000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -363,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615002348233</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="上传结果显示">
+      <created>1615003730895</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1615003730895</updated>
+    </task>
+    <task id="LOCAL-00040" summary="支持自定义图片尺寸">
+      <created>1615011751910</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1615011751910</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,8 +396,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="创建项目文件" />
-    <MESSAGE value="创建路由" />
     <MESSAGE value="实现懒加载" />
     <MESSAGE value="完成 Header、Footer 组件" />
     <MESSAGE value="使用 mobx 管理全局数据" />
@@ -408,7 +419,9 @@
     <MESSAGE value="使用 Upload from AntD,成功后显示 url" />
     <MESSAGE value="完成 Tips 组件" />
     <MESSAGE value="实现登陆后才能上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现登陆后才能上传" />
+    <MESSAGE value="上传结果显示" />
+    <MESSAGE value="支持自定义图片尺寸" />
+    <option name="LAST_COMMIT_MESSAGE" value="支持自定义图片尺寸" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
