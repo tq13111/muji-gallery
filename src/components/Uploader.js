@@ -34,12 +34,27 @@ const Component = observer(() => {
           支持单次或批量上传。严格禁止上传公司数据或其他乐队文件
         </p>
       </Dragger>
-      <div>
-        <h1>上传结果</h1>
-        {ImageStore.serverFile ?
-          <div>{ImageStore.serverFile.attributes.url.attributes.url}</div> : null
-        }
-      </div>
+
+      {ImageStore.serverFile ?
+        <div>
+          <h1>上传结果</h1>
+          <dl>
+            <dt>文件名：</dt>
+            <dd>{ImageStore.fileName}</dd>
+            <dt>图片预览：</dt>
+            <dd><img src={ImageStore.serverFile.attributes.url.attributes.url} alt=""/></dd>
+            <dt>尺寸修改：</dt>
+            <dd>。。。</dd>
+            <dt>保存地址：</dt>
+            <dd>
+              <a target="_blank" href={ImageStore.serverFile.attributes.url.attributes.url}>
+                {ImageStore.serverFile.attributes.url.attributes.url}
+              </a>
+            </dd>
+
+          </dl>
+        </div> : null
+      }
     </>
   )
 })

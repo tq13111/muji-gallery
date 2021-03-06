@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="完成 Tips 组件">
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="实现登陆后才能上传">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
     </list>
@@ -95,7 +95,7 @@
       <workItem from="1614766050058" duration="8393000" />
       <workItem from="1614854202595" duration="12655000" />
       <workItem from="1614939244012" duration="1500000" />
-      <workItem from="1614996082228" duration="6192000" />
+      <workItem from="1614996082228" duration="7545000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -356,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615000728478</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="实现登陆后才能上传">
+      <created>1615002348233</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1615002348233</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +407,8 @@
     <MESSAGE value="创建 Upload 组件，支持上传功能" />
     <MESSAGE value="使用 Upload from AntD,成功后显示 url" />
     <MESSAGE value="完成 Tips 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 Tips 组件" />
+    <MESSAGE value="实现登陆后才能上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现登陆后才能上传" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
