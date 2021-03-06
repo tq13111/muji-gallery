@@ -43,6 +43,20 @@ const Uploader = {
         serverFile => resolve(serverFile),
         error => reject(error))
     })
+  },
+  find({page = 0, limit = 10}) {
+    const query = new AV.Query('image')
+    query.include('owner')        // 包含属性
+    query.limit(limit)                // 显示数量
+    query.skip(page * limit)       // 跳过数量
+    query.descending('createdAt')          // 降序排列
+    query.equalTo('owner', AV.User.current())  // 当前用户
+    return new Promise((resolve, reject) => {
+      query.find()
+        .then(result => resolve(result))
+        .catch(error => reject(error))
+    })
   }
 }
+window.Upload = Uploader
 export {Auth, Uploader}

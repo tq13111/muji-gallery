@@ -1,9 +1,12 @@
 import React from 'react'
-function History(){
+import History from '../components/History'
+
+function Component() {
   return (
     <>
-      <h1>History</h1>
+      <History/>
     </>
   )
 }
-export default History
+
+export default Component
