@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 import useStore from '../stores'
-import {Upload, message} from 'antd'
+import {Upload, message, Spin} from 'antd'
 import {InboxOutlined} from '@ant-design/icons'
 import {observer, useLocalStore} from 'mobx-react'
 import styled from 'styled-components'
@@ -23,10 +23,10 @@ const Image = styled.img`
 const Component = observer(() => {
   const {ImageStore, UserStore} = useStore()
   const props = {
-
     showUploadList: false,     // 不显示文件列表
     beforeUpload: file => {
       window.file = file
+      ImageStore.serverFile = null
       if (!UserStore.currentUser) {
         message.warning('请先登录 !')
         return false
@@ -80,15 +80,17 @@ const Component = observer(() => {
 
   return (
     <>
-      <Dragger {...props}>
-        <p className="ant-upload-drag-icon">
-          <InboxOutlined/>
-        </p>
-        <p className="ant-upload-text">单击或拖动文件到此区域以上传</p>
-        <p className="ant-upload-hint">
-          支持jpg/jpeg/png/gif 格式的图片,可单次或批量上传。
-        </p>
-      </Dragger>
+      <Spin spinning={ImageStore.isUploading}>
+        <Dragger {...props}>
+          <p className="ant-upload-drag-icon">
+            <InboxOutlined/>
+          </p>
+          <p className="ant-upload-text">单击或拖动文件到此区域以上传</p>
+          <p className="ant-upload-hint">
+            支持jpg/jpeg/png/gif 格式的图片,可单次或批量上传。
+          </p>
+        </Dragger>
+      </Spin>
 
       {ImageStore.serverFile ?
         <Result>
