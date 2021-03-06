@@ -7,11 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="封装 ImageStore">
-      <change afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="创建 Upload 组件，支持上传功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
     </list>
     <list id="1faee9a5-d538-4743-a97f-24d2d3b1d079" name="封装 ImageStore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +96,9 @@
       <workItem from="1614602161250" duration="13747000" />
       <workItem from="1614694881818" duration="619000" />
       <workItem from="1614766050058" duration="8393000" />
-      <workItem from="1614854202595" duration="11116000" />
+      <workItem from="1614854202595" duration="12655000" />
+      <workItem from="1614939244012" duration="1500000" />
+      <workItem from="1614996082228" duration="2657000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目文件">
       <created>1614403639035</created>
@@ -314,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614872812210</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="封装 ImageStore">
+      <created>1614874121301</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1614874121301</updated>
+    </task>
+    <task id="LOCAL-00033" summary="创建 Upload 组件，支持上传功能">
+      <created>1614874547613</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1614874547613</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +372,8 @@
     <MESSAGE value="封装 imageStore" />
     <MESSAGE value="封装 uploader 对象" />
     <MESSAGE value="封装 ImageStore" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装 ImageStore" />
+    <MESSAGE value="创建 Upload 组件，支持上传功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 Upload 组件，支持上传功能" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

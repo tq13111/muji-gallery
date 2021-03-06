@@ -3,7 +3,7 @@ import AV, {Query, User} from 'leancloud-storage'
 AV.init({
   appId: '9JBQ1SKD20ljqcJtOBbzan57-gzGzoHsz',
   appKey: 'jzuqL3dTJvWP6rqWxQTyP6v5',
-  serverURL: 'https://9jbq1skd.lc-cn-n1-shared.com'
+  serverURL: 'https://9jbq1skd.lc-cn-n1-shared.com',
 })
 
 const Auth = {
@@ -33,11 +33,11 @@ const Auth = {
 }
 const Uploader = {
   add(fileName, file) {
-    const item = new AV.Object('Image')
+    const item = new AV.Object('image')
     const avFile = new AV.File(fileName, file)
     item.set('filename', fileName)
     item.set('owner', AV.User.current())
-    item.set('url', file)
+    item.set('url', avFile)
     return new Promise((resolve, reject) => {
       item.save().then(
         serverFile => resolve(serverFile),
