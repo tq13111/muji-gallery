@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="增加 loading 效果">
-      <change beforePath="$PROJECT_DIR$/src/components/Uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/image.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
