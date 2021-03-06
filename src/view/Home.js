@@ -1,17 +1,11 @@
 import React from 'react'
-import useStore from '../stores'
 import Uploader from '../components/Uploader'
+import Tips from '../components/Tips'
 
 function Home() {
-  const {UserStore} = useStore()
   return (
     <>
-      <h1>{UserStore.currentUser ?
-        <>
-          Hello {UserStore.currentUser.attributes.username}
-        </> : <>用户未登录</>
-      }</h1>
-
+      <Tips>请登陆后使用</Tips>
       <Uploader/>
     </>
   )
