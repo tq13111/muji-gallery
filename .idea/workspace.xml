@@ -7,10 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="完成 historyStore">
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="修复刷新后登陆状态取消 bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/History.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/History.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/image.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +88,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="" />
+      <changelist id="" name="完成 historyStore" comment="" />
       <created>1614394854895</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -95,14 +103,7 @@
       <workItem from="1614854202595" duration="12655000" />
       <workItem from="1614939244012" duration="1500000" />
       <workItem from="1614996082228" duration="18535000" />
-      <workItem from="1615042440660" duration="5080000" />
-    </task>
-    <task id="LOCAL-00001" summary="创建项目文件">
-      <created>1614403639035</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1614403639035</updated>
+      <workItem from="1615042440660" duration="17631000" />
     </task>
     <task id="LOCAL-00002" summary="创建项目文件">
       <created>1614407426270</created>
@@ -426,7 +427,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615046229623</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="完成 historyStore">
+      <created>1615050116804</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1615050116804</updated>
+    </task>
+    <task id="LOCAL-00049" summary="完成 historyStore">
+      <created>1615050174117</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1615050174117</updated>
+    </task>
+    <task id="LOCAL-00050" summary="修复刷新后登陆状态取消 bug">
+      <created>1615050204322</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1615050204323</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +459,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -446,7 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="实现登录、注销切换" />
     <MESSAGE value="在 Register 页面创建 form 表单" />
     <MESSAGE value="完成注册表单验证" />
     <MESSAGE value="完成 Login 页面" />
@@ -471,7 +504,8 @@
     <MESSAGE value="添加失败提示" />
     <MESSAGE value="完成上传历史查询接口" />
     <MESSAGE value="完成 historyStore" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 historyStore" />
+    <MESSAGE value="修复刷新后登陆状态取消 bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复刷新后登陆状态取消 bug" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

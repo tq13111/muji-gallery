@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import {Button} from 'antd'
 import useStore from '../stores'
 import {observer} from 'mobx-react'
-
 const Header = styled.header`
   display: flex;
   align-items: center;
@@ -40,7 +39,9 @@ const Component = observer(
   () => {
     const history = useHistory()
     const {UserStore, AuthStore} = useStore()
-    const handleLogout = () => AuthStore.logout()
+    const handleLogout = () => {
+      AuthStore.logout()
+    }
     const handleLogin = () => history.push('/login')
     const handleRegister = () => history.push('/register')
     useEffect(() => {

@@ -2,7 +2,7 @@ import {observable, action, makeObservable} from 'mobx'
 import {Uploader} from '../models'
 import {message} from 'antd'
 
-class AuthStore {
+class HistoryStore {
   @observable list = []
   @observable page = 0
   @observable limit = 10
@@ -22,9 +22,18 @@ class AuthStore {
       .then(result => {
         this.page++
         this.append(result)
+        this.hasMore = false
       })
       .catch(error => message.error('加载数据失败'))
   }
+
+  @action reset() {
+    this.list = []
+    this.page = 0
+    this.limit = 10
+    this.isLoading = false
+    this.hasMore = true
+  }
 }
 
-export default new AuthStore()
+export default new HistoryStore()

@@ -110,7 +110,6 @@ const Component = observer(() => {
                 {store.fullStr}
               </a>
             </dd>
-
           </dl>
         </Result> : null
       }
