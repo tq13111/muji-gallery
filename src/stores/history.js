@@ -27,6 +27,15 @@ class HistoryStore {
       .catch(error => message.error('加载数据失败'))
   }
 
+  @action remove(file) {
+    Uploader.remove(file)
+      .then(() => {
+        this.reset()
+        console.log('删除成功')
+      })
+      .catch(error => message.error('删除数据失败'))
+  }
+
   @action reset() {
     this.list = []
     this.page = 0

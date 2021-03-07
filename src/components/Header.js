@@ -5,12 +5,13 @@ import styled from 'styled-components'
 import {Button} from 'antd'
 import useStore from '../stores'
 import {observer} from 'mobx-react'
+
 const Header = styled.header`
   display: flex;
   align-items: center;
-  padding: 10px 100px;
-  background-color: #02101f;
-  color: #fff;
+  padding: 0 100px;
+  background-color: #2b2826;
+  color: #c0bfbe;
 `
 
 const Logo = styled.img`
@@ -18,11 +19,14 @@ const Logo = styled.img`
 `
 
 const StyledLink = styled(NavLink)`
-  color: #fff;
+  color: #c0bfbe;
   margin-left: 30px;
+  height: 52px;
+  line-height: 52px;
+  display: inline-block;
 
   &.active {
-    border-bottom: 1px solid #fff;
+    border-bottom: 4px solid skyblue;
   }
 `
 

@@ -4,10 +4,10 @@ import {observer} from 'mobx-react'
 import styled from 'styled-components'
 
 const Tips = styled.div`
-  background: orange;
+  background: rgba(252, 0, 0, 0.5);
   padding: 10px;
   margin: 30px 0;
-  color: #fff;
+  color: white;
   border-radius: 4px;
   font-weight: bold;
 `

@@ -9,7 +9,7 @@ AV.init({
 const Auth = {
   register(userName, passWord) {
     const user = new User()
-    user.setUsername(userName)
+    user.setUserfile(userName)
     user.setPassword(passWord)
     return new Promise((resolve, reject) => {
       user.signUp().then(loginUser => resolve(loginUser)
@@ -35,7 +35,7 @@ const Uploader = {
   add(fileName, file) {
     const item = new AV.Object('image')
     const avFile = new AV.File(fileName, file)
-    item.set('filename', fileName)
+    item.set('filefile', fileName)
     item.set('owner', AV.User.current())
     item.set('url', avFile)
     return new Promise((resolve, reject) => {
@@ -53,6 +53,14 @@ const Uploader = {
     query.equalTo('owner', AV.User.current())  // 当前用户
     return new Promise((resolve, reject) => {
       query.find()
+        .then(result => resolve(result))
+        .catch(error => reject(error))
+    })
+  },
+  remove(file) {
+    const item = AV.Object.createWithoutData('image', file)
+    return new Promise((resolve, reject) => {
+      item.destroy()
         .then(result => resolve(result))
         .catch(error => reject(error))
     })

@@ -4,7 +4,8 @@ body {
   "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
   sans-serif;
   color: #444;
-  background: #eceff2;
+  background: url("https://www.superbed.cn/static/dist/img/header.jpg") no-repeat center;
+  background-size: 100% 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,5 +26,6 @@ main {
   flex: 1;
   padding: 30px 100px;
 }
+
 
 

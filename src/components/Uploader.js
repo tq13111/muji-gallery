@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 import useStore from '../stores'
-import {Upload, message, Spin} from 'antd'
+import {Upload, message, Spin, Input, Form} from 'antd'
 import {InboxOutlined} from '@ant-design/icons'
 import {observer, useLocalStore} from 'mobx-react'
 import styled from 'styled-components'
@@ -8,9 +8,11 @@ import styled from 'styled-components'
 const {Dragger} = Upload
 const Result = styled.div`
   margin-top: 30px;
-  border: 1px dashed #ccc;
+  border: 1px solid #ccc;
   padding: 20px;
-  background: #8dc3ec;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+
 `
 const H1 = styled.h1`
   text-align: center;
@@ -18,7 +20,26 @@ const H1 = styled.h1`
 const Image = styled.img`
   max-width: 300px;
 `
+const DraggerWrapper = styled(Dragger)`
+  background: rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid !important;
+  box-shadow: 0 5px 5px -3px rgb(0 0 0 / 20%), 0 8px 10px 1px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%);
 
+  .ant-upload-text {
+    color: #fff !important;
+  }
+
+  .ant-upload-hint {
+    color: #ccc !important;
+  }
+`
+const FormStyle = styled(Form)`
+  height: 40px;
+
+  > div {
+    display: inline-block;
+  }
+`
 
 const Component = observer(() => {
   const {ImageStore, UserStore} = useStore()
@@ -69,18 +90,23 @@ const Component = observer(() => {
     },
   }))
 
-  function bindWidthChange() {
-    store.setWidth(ref1.current.value)
+  function bindWidthChange(e) {
+    store.setWidth(e.target.value)
   }
 
-  function bindHeightChange() {
-    store.setHeight(ref2.current.value)
+  function bindHeightChange(e) {
+    store.setHeight(e.target.value)
+  }
+
+  const validatorUsername = (rule, value) => {
+    if (!/^[0-9]*$/.test(value)) {return Promise.reject('只能是数字')}
+    return Promise.resolve()
   }
 
   return (
     <>
       <Spin spinning={ImageStore.isUploading}>
-        <Dragger {...props}>
+        <DraggerWrapper {...props}>
           <p className="ant-upload-drag-icon">
             <InboxOutlined/>
           </p>
@@ -88,7 +114,7 @@ const Component = observer(() => {
           <p className="ant-upload-hint">
             支持jpg/jpeg/png/gif 格式的图片,可单次或批量上传。
           </p>
-        </Dragger>
+        </DraggerWrapper>
       </Spin>
 
       {ImageStore.serverFile ?
@@ -101,8 +127,17 @@ const Component = observer(() => {
             <dd><Image src={ImageStore.serverFile.attributes.url.attributes.url} alt=""/></dd>
             <dt><h2>尺寸修改：</h2></dt>
             <dd>
-              <input ref={ref1} onChange={bindWidthChange} placeholder="最大宽度（可选）"/>
-              <input ref={ref2} onChange={bindHeightChange} placeholder="最大高度（可选）"/>
+              <FormStyle name="basic">
+                <Form.Item name="width"
+                           rules={[{validator: validatorUsername}]}>
+                  <Input style={{width: '200px', marginRight: '16px'}} ref={ref1} onChange={bindWidthChange}
+                         placeholder="最大宽度（可选）"/>
+                </Form.Item>
+                <Form.Item name="height"
+                           rules={[{validator: validatorUsername}]}>
+                  <Input style={{width: '200px'}} ref={ref2} onChange={bindHeightChange} placeholder="最大高度（可选）"/>
+                </Form.Item>
+              </FormStyle>
             </dd>
             <dt><h2>保存地址：</h2></dt>
             <dd>
@@ -113,6 +148,7 @@ const Component = observer(() => {
           </dl>
         </Result> : null
       }
+
     </>
   )
 })
