@@ -7,15 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="美化样式">
-      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="添加 README">
+      <change beforePath="$PROJECT_DIR$/.idea/react-muji-gallery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-muji-gallery.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
     </list>
-    <list id="0a6aa0d0-82f7-4daf-af0d-7512a9b01997" name="xxx" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
@@ -51,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,7 +59,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="N:\WebStorm2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -89,7 +88,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="" />
-      <changelist id="0a6aa0d0-82f7-4daf-af0d-7512a9b01997" name="xxx" comment="" />
       <created>1614394854895</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -105,35 +103,23 @@
       <workItem from="1614939244012" duration="1500000" />
       <workItem from="1614996082228" duration="18535000" />
       <workItem from="1615042440660" duration="21108000" />
-      <workItem from="1615102751941" duration="14066000" />
-    </task>
-    <task id="LOCAL-00004" summary="创建路由">
-      <created>1614407449179</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1614407449179</updated>
-    </task>
-    <task id="LOCAL-00005" summary="实现懒加载">
-      <created>1614433517727</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1614433517727</updated>
-    </task>
-    <task id="LOCAL-00006" summary="完成 Header、Footer 组件">
-      <created>1614437487007</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1614437487007</updated>
-    </task>
-    <task id="LOCAL-00007" summary="完成 Header、Footer 组件">
-      <created>1614437525709</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1614437525709</updated>
+      <workItem from="1615102751941" duration="15071000" />
+      <workItem from="1615709595303" duration="191000" />
+      <workItem from="1615710742070" duration="33000" />
+      <workItem from="1615711076748" duration="10000" />
+      <workItem from="1615711834160" duration="56000" />
+      <workItem from="1615722369056" duration="225000" />
+      <workItem from="1615725096158" duration="321000" />
+      <workItem from="1615727629663" duration="30000" />
+      <workItem from="1615728420005" duration="5635000" />
+      <workItem from="1615806340768" duration="1431000" />
+      <workItem from="1615816624176" duration="35000" />
+      <workItem from="1615818748128" duration="114000" />
+      <workItem from="1615821004662" duration="199000" />
+      <workItem from="1615905701348" duration="1054000" />
+      <workItem from="1615975838490" duration="599000" />
+      <workItem from="1616297462296" duration="153000" />
+      <workItem from="1616298332249" duration="21000" />
     </task>
     <task id="LOCAL-00008" summary="使用 mobx 管理全局数据">
       <created>1614599456883</created>
@@ -450,7 +436,35 @@
       <option name="project" value="LOCAL" />
       <updated>1615117606527</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="美化样式">
+      <created>1615119620892</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1615119620892</updated>
+    </task>
+    <task id="LOCAL-00054" summary="添加 README">
+      <created>1615119634245</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1615119634245</updated>
+    </task>
+    <task id="LOCAL-00055" summary="添加 README">
+      <created>1615119768324</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1615119768324</updated>
+    </task>
+    <task id="LOCAL-00056" summary="添加 README">
+      <created>1615709618691</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1615709618692</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +496,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="完成 Login 页面" />
     <MESSAGE value="提取 formLayout 样式文件" />
     <MESSAGE value="使用 leanCloud,封装注册登录功能" />
     <MESSAGE value="完成注册功能" />
@@ -507,7 +520,8 @@
     <MESSAGE value="修复刷新后登陆状态取消 bug" />
     <MESSAGE value="注销后清除数据" />
     <MESSAGE value="美化样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="美化样式" />
+    <MESSAGE value="添加 README" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 README" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
