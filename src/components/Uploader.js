@@ -141,7 +141,8 @@ const Component = observer(() => {
             </dd>
             <dt><h2>保存地址：</h2></dt>
             <dd>
-              <a target="_blank" href={store.fullStr}>
+              <a target="_blank" rel="noopener noreferrer"
+                 href={store.fullStr}>
                 {store.fullStr}
               </a>
             </dd>

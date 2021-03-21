@@ -4,6 +4,8 @@ import User from './user'
 import {message} from 'antd'
 import HistoryStore from './history'
 import ImageStore from './image'
+import UserStore from './user'
+
 
 class AuthStore {
   constructor() {
@@ -42,13 +44,18 @@ class AuthStore {
     return new Promise((resolve, reject) => {
       Auth.register(this.values.username, this.values.password)
         .then(user => {
+          UserStore.pullUser()
           console.log('注册成功')
           resolve(user)
         })
         .catch(error => {
-          message.error('注册失败')
-
-
+          console.log(typeof error.valueOf(), error.toString())
+          if (error.toString() === 'Error: Username has already been taken. [400 POST https://9jbq1skd.lc-cn-n1-shared.com/1.1/users]') {
+            message.error('该用户名已被注册,请重试')
+          } else {
+            message.error('注册失败')
+          }
+          UserStore.resetUser()
           reject(error)
         })
     })

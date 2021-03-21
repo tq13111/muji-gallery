@@ -50,7 +50,7 @@ const Component = observer(
     const handleRegister = () => history.push('/register')
     useEffect(() => {
       UserStore.pullUser()
-    }, [])
+    }, [UserStore])
     return (
       <Header>
         <Logo src={LogoUrl}/>

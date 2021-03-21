@@ -7,13 +7,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="添加 README">
+    <list default="true" id="f62b9865-20b4-441f-8121-986ff65ccbde" name="默认的" comment="添加 README&#10;update">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/react-muji-gallery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-muji-gallery.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/History.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/History.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/About.js" afterDir="false" />
     </list>
+    <list id="c8185556-cde8-496e-80a6-9f6c3fe296ab" name="Revert &quot;美化样式&quot;" comment="Revert &quot;美化样式&quot;&#10;&#10;This reverts commit 079be0b5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +41,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -120,13 +134,9 @@
       <workItem from="1615975838490" duration="599000" />
       <workItem from="1616297462296" duration="153000" />
       <workItem from="1616298332249" duration="21000" />
-    </task>
-    <task id="LOCAL-00008" summary="使用 mobx 管理全局数据">
-      <created>1614599456883</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1614599456883</updated>
+      <workItem from="1616315011377" duration="1774000" />
+      <workItem from="1616316804366" duration="2138000" />
+      <workItem from="1616319728864" duration="233000" />
     </task>
     <task id="LOCAL-00009" summary="使用 mobx 管理全局数据">
       <created>1614604397849</created>
@@ -464,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615709618692</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="添加 README&#10;update">
+      <created>1616315062781</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1616315062781</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,8 +513,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="提取 formLayout 样式文件" />
-    <MESSAGE value="使用 leanCloud,封装注册登录功能" />
     <MESSAGE value="完成注册功能" />
     <MESSAGE value="创建 UserStore" />
     <MESSAGE value="使用 UserStore、AuthStore实现登陆后显示用户名" />
@@ -521,7 +536,9 @@
     <MESSAGE value="注销后清除数据" />
     <MESSAGE value="美化样式" />
     <MESSAGE value="添加 README" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 README" />
+    <MESSAGE value="添加 README&#10;update" />
+    <MESSAGE value="Revert &quot;美化样式&quot;&#10;&#10;This reverts commit 079be0b5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;美化样式&quot;&#10;&#10;This reverts commit 079be0b5" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

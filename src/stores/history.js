@@ -22,9 +22,7 @@ class HistoryStore {
       .then(result => {
         this.page++
         this.append(result)
-        if (result.length < this.limit) {
-          this.hasMore = false
-        }
+        this.hasMore = false
       })
       .catch(error => message.error('加载数据失败'))
   }

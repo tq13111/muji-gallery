@@ -2,7 +2,7 @@ import AuthStore from './auth'
 import UserStore from './user'
 import ImageStore from './image'
 import HistoryStore from './history'
-import React, {createContext, useContext} from 'react'
+import {createContext, useContext} from 'react'
 
 const context = createContext({
   AuthStore, UserStore, ImageStore, HistoryStore

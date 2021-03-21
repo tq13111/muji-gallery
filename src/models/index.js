@@ -1,4 +1,4 @@
-import AV, {Query, User} from 'leancloud-storage'
+import AV, {User} from 'leancloud-storage'
 
 AV.init({
   appId: '9JBQ1SKD20ljqcJtOBbzan57-gzGzoHsz',
@@ -9,7 +9,7 @@ AV.init({
 const Auth = {
   register(userName, passWord) {
     const user = new User()
-    user.setUserfile(userName)
+    user.setUsername(userName)
     user.setPassword(passWord)
     return new Promise((resolve, reject) => {
       user.signUp().then(loginUser => resolve(loginUser)

@@ -5,7 +5,6 @@ import {Button, List, Spin} from 'antd'
 import InfiniteScroll from 'react-infinite-scroller'
 import styled from 'styled-components'
 import dayjs from 'dayjs'
-import {Link} from 'react-router-dom'
 
 const LoadingContainer = styled.div`
   position: absolute;
@@ -45,10 +44,8 @@ const Component = observer(
     const loadMore = () => HistoryStore.pullList()
 
     useEffect(() => {
-      return () => {
-        HistoryStore.reset()
-      }
-    }, [])
+      HistoryStore.reset()
+    }, [HistoryStore])
     return (
       <InfiniteScroll
         // initialLoad={true}
